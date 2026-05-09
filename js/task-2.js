@@ -8,7 +8,7 @@ function calcAverageCalories(days) {
         total2 += item;
     }
 
-    return total2 / 7;
+    return total2 / days.length;
 }
 
 console.log(
